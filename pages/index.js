@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import { Fragment } from 'react';
-import Header from './header';
-import Button from './button';
-import Footer from './footer';
+import Header from '../components/header';
+import Button from '../components/button';
+import Footer from '../components/footer';
 
 
 export default function Home() {

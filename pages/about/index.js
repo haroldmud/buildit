@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { Fragment } from "react";
-import Header from "../header";
-import Footer from "../footer";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 
 
 function Info () {
