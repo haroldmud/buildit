@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 function Footer() {
   return (
     <footer className="flex justify-center text-white h-[22rem]  bg-green6a6 ">

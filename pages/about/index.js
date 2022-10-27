@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Fragment } from "react";
 import Header from "../header";
 import Footer from "../footer";

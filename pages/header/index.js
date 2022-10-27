@@ -15,7 +15,7 @@ let links = [
     [
       "./", "contact"
     ],
-  ];
+  ]
 
 function Header() {
     return (
@@ -33,7 +33,7 @@ function Header() {
                 <ul className='flex items-center gap-8'>  
                   { 
                     links.map(
-                      (item) => <li>
+                      (item, index) => <li key={index}>
                                     <Link href={item[0]}>
                                     <a className='text-green6a6 hover:underline'>{item[1]}</a>
                                     </Link> 
