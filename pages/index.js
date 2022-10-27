@@ -7,7 +7,6 @@ import Footer from './footer';
 
 export default function Home() {
   return (
-    <Fragment>
     <section className='text-green6a6 bg-[url("../public/images/Bgs.png")]'>
       <Header/>
       <section className='flex mt-12'>
@@ -135,6 +134,5 @@ export default function Home() {
           <Footer/>
     </section>
     
-  </Fragment>
   )
 }
