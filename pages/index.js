@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from 'next/link';
 import { Fragment } from 'react';
 import Header from './header';
 import Button from './button';
